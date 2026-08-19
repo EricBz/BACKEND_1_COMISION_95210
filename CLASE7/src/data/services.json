@@ -1,0 +1,14 @@
+[
+  {
+    "id": "a0dcd4c9-5132-4742-960b-3f72d69ba183",
+    "nombre": "kinesiologia",
+    "turnos": 7,
+    "precio": 15000
+  },
+  {
+    "id": "4458db52-c181-455f-8cca-681aa111b6c6",
+    "nombre": "odontologia",
+    "turnos": 12,
+    "precio": 17000
+  }
+]

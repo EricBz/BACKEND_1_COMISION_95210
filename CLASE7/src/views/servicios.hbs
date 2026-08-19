@@ -1,0 +1,23 @@
+<section>
+<div class="container">
+    <h1>{{title}}</h1>
+    <div class="services">
+        {{#each servicios}}
+            <div class="service">
+                <h2>{{nombre}}</h2>
+                <p class="turnos">Turnos disponibles: {{turnos}}</p>
+                <p class="price">Precio: ${{precio}}</p>
+            </div>
+        {{/each}}
+    </div>
+</div>
+</section>
+ <!-- SOCKET.IO -->
+    <section class="section socket-section">
+        <h2>Servicios — Socket.IO</h2>
+        <p class="description">Esta lista es enviada por Socket.IO y se actualiza en tiempo real.</p>
+        <div id="socket-services" class="services">
+            <p>Esperando datos de Socket.IO...</p>       
+            </div>
+    </section>
+</div>
